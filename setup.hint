@@ -1,0 +1,7 @@
+category: Graphics
+requires: cygwin libpng12 zlib python
+sdesc: "Converts GIF files to PNG format"
+ldesc: "This handy little converter turns GIF files into PNG files. 
+With the distribution you get a Python script that can be used to 
+convert an entire website, not only changing GIFs to PNGs but also 
+patching HTML and PHP pages appropriately."

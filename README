@@ -1,0 +1,63 @@
+gif2png
+------------------------------------------
+This handy little converter turns GIF files into PNG files. With the 
+distribution you get a Python script that can be used to convert an 
+entire website, not only changing GIFs to PNGs but also patching HTML 
+and PHP pages appropriately.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libpng12-1.2.31-1
+  zlib-1.2.3-2
+  python
+
+Build requirements:
+  autoconf2.5-2.61-1
+  automake1.6-1.6.3-3
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.catb.org/~esr/gif2png/
+
+------------------------------------
+
+Build instructions:
+  unpack gif2png-2.5.1-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gif2png-2.5.1-1.cygport all
+
+This will create:
+  /usr/src/gif2png-2.5.1-1.tar.bz2
+  /usr/src/gif2png-2.5.1-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro
+
+  /usr/bin/gif2png.exe
+  /usr/bin/web2png
+  /usr/share/doc/gif2png-2.5.1/AUTHORS
+  /usr/share/doc/gif2png-2.5.1/COPYING
+  /usr/share/doc/gif2png-2.5.1/INSTALL
+  /usr/share/doc/gif2png-2.5.1/NEWS
+  /usr/share/doc/gif2png-2.5.1/README
+  /usr/share/man/man1/gif2png.1
+  /usr/share/man/man1/web2png.1
+
+------------------
+
+Port Notes:
+
+----- version 2.5.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
