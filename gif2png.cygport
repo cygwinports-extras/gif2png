@@ -1,0 +1,13 @@
+NAME="gif2png"
+VERSION=2.5.8
+RELEASE=2
+CATEGORY="Graphics"
+SUMMARY="Converts GIF files to PNG format"
+DESCRIPTION="This handy little converter turns GIF files into PNG files.
+With the distribution you get a Python script that can be used to convert
+an entire website, not only changing GIFs to PNGs but also patching HTML
+and PHP pages appropriately."
+HOMEPAGE="http://www.catb.org/~esr/gif2png/"
+SRC_URI="http://www.catb.org/~esr/${NAME}/${NAME}-${VERSION}.tar.gz"
+
+DISTCLEANFILES="Makefile"
