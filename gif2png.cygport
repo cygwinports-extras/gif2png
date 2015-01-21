@@ -1,6 +1,6 @@
 NAME="gif2png"
-VERSION=2.5.8
-RELEASE=2
+VERSION=2.5.10
+RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="Converts GIF files to PNG format"
 DESCRIPTION="This handy little converter turns GIF files into PNG files.
